@@ -1,0 +1,40 @@
+Attributes contained within () with Type displayed before parenthesis
+Values assigned to Attributes contained within [] with Boolean displayed before parenthesis
+Boolean Attributes have CAPITAL LETTERS. Assigned values can only be [true] or [false]
+Relationships contained within {} with parent displayed before parenthesis
+Type/Node FROM SAME PARENT separated by ;
+
+Types
+    Car
+    Engine
+    Battery
+
+Booleans
+    EXISTS[]
+    HASWHEELS[]
+    CANFLY[]
+    
+Attributes
+    colour[]
+    horsepower[]
+    make[]
+    price[]
+    fuelconsumption[]
+    voltage[]
+    batterytype[]
+
+Values
+    EXISTS[true]
+    HASWHEELS[true]
+    CANFLY[false]
+    
+    colour[red]
+    horsepower[400]
+    make[BMW]
+    price[100000]
+    fuelconsumption[2.34]
+    voltage[24]
+    batterytype[Lead-Acid]
+
+Relationships
+    Car{Engine();Battery()}

@@ -1,0 +1,12 @@
+<shelf wood="oak" weight="85kg">
+    <animal race="Hieraatus Spilogaster" taxidermist="Bob"/>
+    <famous-quote>Alea Jacta Est</>
+    <book title="Naiv Super" author="Erlend Loe"></>
+    <book>
+        <title>Naiv Super</>
+        <author>Erlend Loe</>
+    </book>
+    <truth>I am <emphasis>really</emphasis> good at this!</truth>
+</shelf>
+
+

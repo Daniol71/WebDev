@@ -1,0 +1,2 @@
+
+Car(colour[red]make[BMW]price[100000]){Engine(horsepower[400]fuelconsumption[2.34]);Battery(voltage[24]batterytype[Lead-Acid])}
