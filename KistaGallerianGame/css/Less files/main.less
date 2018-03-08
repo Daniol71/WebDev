@@ -1,0 +1,44 @@
+@link-color:        white;
+@link-color-hover:  darken(@link-color, 20%);
+
+body {
+    background-image:url(../images/background.jpg);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-top: 3%;
+    margin-right: auto;
+    width: 480px;
+    max-height: 360px;
+}
+h2 {
+    padding-top: 2%;
+    display: block;
+    margin-left: 35%;
+    margin-top: auto;
+    margin-right: 25%;
+    margin-bottom: auto;
+    max-width: 75%;
+    max-height: 75%;
+}
+h3 {
+    display: block;
+    margin-left: 35%;
+    margin-top: auto;
+    margin-right: 25%;
+    margin-bottom: auto;
+    max-width: 75%;
+    max-height: 75%;  
+}
+li {
+    padding-bottom: 5%;
+}
+a,
+.link {
+  color: @link-color;
+}
+a:hover {
+  color: @link-color-hover;
+  text-decoration: none;
+}

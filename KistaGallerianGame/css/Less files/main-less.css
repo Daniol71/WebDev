@@ -1,15 +1,14 @@
-/*created using SASS!*/
 body {
-  background-image: url(../images/background.jpg); }
-
+  background-image: url(../images/background.jpg);
+}
 img {
   display: block;
   margin-left: auto;
   margin-top: 3%;
   margin-right: auto;
   width: 480px;
-  max-height: 360px; }
-
+  max-height: 360px;
+}
 h2 {
   padding-top: 2%;
   display: block;
@@ -18,8 +17,8 @@ h2 {
   margin-right: 25%;
   margin-bottom: auto;
   max-width: 75%;
-  max-height: 75%; }
-
+  max-height: 75%;
+}
 h3 {
   display: block;
   margin-left: 35%;
@@ -27,17 +26,16 @@ h3 {
   margin-right: 25%;
   margin-bottom: auto;
   max-width: 75%;
-  max-height: 75%; }
-
+  max-height: 75%;
+}
 li {
-  padding-bottom: 5%; }
-
+  padding-bottom: 5%;
+}
 a,
 .link {
-  color: red; }
-
+  color: white;
+}
 a:hover {
-  color: #990000;
-  text-decoration: none; }
-
-/*# sourceMappingURL=main.css.map */
+  color: #cccccc;
+  text-decoration: none;
+}
