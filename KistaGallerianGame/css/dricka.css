@@ -1,21 +1,56 @@
-/*created using SASS!*/
 body {
-  background-image: url(../images/background.jpg); }
-
+  background-image: url(../images/background.jpg);
+}
 img.top {
   display: block;
   margin-left: auto;
   margin-top: 3%;
   margin-right: auto;
   width: 480px;
-  max-height: 360px; }
-
-img.select {
+  max-height: 360px;
+}
+@keyframes updown {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes downup {
+  0% {
+    top: 100px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: 100px;
+  }
+}
+img.zeunerts {
   display: block;
-  margin-top: 2%;
-  max-width: 200px;
-  max-height: 200px; }
-
+  margin-left: 650px;
+  max-width: 100px;
+  max-height: 100px;
+  animation-name: updown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+img.rodvin {
+  display: block;
+  margin-left: 750px;
+  max-width: 100px;
+  max-height: 100px;
+  animation-name: downup;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
 h2 {
   padding-top: 2%;
   display: block;
@@ -24,16 +59,19 @@ h2 {
   margin-right: 25%;
   margin-bottom: auto;
   max-width: 75%;
-  max-height: 75%; }
-
-table {
-  display: block;
-  margin-left: 40%;
-  margin-top: auto;
-  margin-right: 25%;
-  margin-bottom: auto;
-  max-width: 75%;
   max-height: 75%;
-  border-spacing: 20px 0; }
-
-/*# sourceMappingURL=dricka.css.map */
+}
+a {
+  position: relative;
+}
+/*table {
+    display: block;
+    margin-left: 650px;
+    border-spacing: 20px 0;
+}*/
+/*td {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}*/
